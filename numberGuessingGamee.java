@@ -6,8 +6,8 @@ public class numberGuessingGamee {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         
-        int lowerBound = 1;  // Lower bound of the range
-        int upperBound = 100;  // Upper bound of the range
+        int lowerBound = 1;  
+        int upperBound = 100;  
         int randomNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
         
         int attempts = 0;
