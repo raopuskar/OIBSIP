@@ -11,8 +11,7 @@ public class atmInterface {
             System.out.print("Enter user PIN: ");
             String userPin = scanner.nextLine();
             
-            // Assuming some logic to check if user ID and PIN are valid
-            // For simplicity, let's use hardcoded values
+            
             if (userId.equals("123") && userPin.equals("456")) {
                 isLoggedIn = true;
                 System.out.println("Login successful!");
@@ -58,21 +57,21 @@ public class atmInterface {
     
     public static void viewTransactionHistory() {
         System.out.println("Transaction history:");
-        // Implement logic to retrieve and display transaction history
+        // logic
     }
     
     public static void withdraw() {
-        // Implement logic for withdrawing money
+        // logic
         System.out.println("Withdraw function called.");
     }
     
     public static void deposit() {
-        // Implement logic for depositing money
+        // logic
         System.out.println("Deposit function called.");
     }
     
     public static void transfer() {
-        // Implement logic for transferring money
+        //logic
         System.out.println("Transfer function called.");
     }
 }
