@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 class Book {
-    // Book class implementation remains the same
+    // logic
 }
 
 class User {
-    // User class implementation remains the same
+    // logic
 }
 
 class Library {
-    // Library class implementation remains the same
+    //logic
 }
 
 class AdminModule {
@@ -60,8 +60,8 @@ class AdminModule {
     }
 
     private boolean loginAsAdmin() {
-        // Implement admin login logic
-        return true; // For demonstration purposes
+        //  admin login 
+        return true; 
     }
 
     private void displayAdminMenu() {
