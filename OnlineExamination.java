@@ -32,7 +32,7 @@ public class OnlineExamination {
         System.out.println("4. Logout");
         System.out.print("Enter your choice: ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine();
         
         switch (choice) {
             case 1:
@@ -55,7 +55,7 @@ public class OnlineExamination {
     
     public static void updateProfile() {
         System.out.println("Updating profile...");
-        // Implement logic to update user profile
+        //  logic to update user profile
         System.out.println("Profile updated successfully!");
         displayMenu();
     }
@@ -70,14 +70,14 @@ public class OnlineExamination {
         }
         System.out.print("Enter new password: ");
         String newPassword = scanner.nextLine();
-        password = newPassword; // Update password
+        password = newPassword; 
         System.out.println("Password updated successfully!");
         displayMenu();
     }
     
     public static void startExam() {
         System.out.println("Starting exam...");
-        // Implement logic for starting the exam, including timer and auto submit
+        // logic for starting the exam, including timer and auto submit
         System.out.println("Exam completed!");
         displayMenu();
     }
@@ -86,7 +86,7 @@ public class OnlineExamination {
         System.out.println("Logging out...");
         // Implement any logout logic here
         System.out.println("Logged out successfully!");
-        // Close scanner and exit program
+
         scanner.close();
         System.exit(0);
     }
